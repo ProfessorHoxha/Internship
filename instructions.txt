@@ -1,0 +1,21 @@
+##Input form:
+
+First name
+Last name
+Username
+Organisation name
+Allow form to be saved to database and search repeated
+Encrypt/decrypt
+
+##Google search operators:
+
+Organisation name + Filetype:xlsx
+Site:linkedin.com
+Site:facebook.com
+“Subject name” + organisation name
+
+##Output form:
+
+List all results
+Allow results to be saved to database and retrieved
+Encypt/decrypt
