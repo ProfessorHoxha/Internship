@@ -31,3 +31,20 @@ class Form(object):
     def describe(self):
         details = (f"First Name: {self.first_name}\nLast Name: {self.last_name}\nUsername: {self.username}\nOrganisation Name: {self.organisation_name}")
         return details
+
+#Inherited class
+class google_search(Form):
+
+#constructer
+    def __init__(self, first_name, last_name, username, organisation_name, prefix):
+        super().__init__(first_name, last_name, username, organisation_name)
+        self.prefix = prefix
+#methods
+    def organisation_and_filetype(self):
+        pass
+    def linkedin(self):
+        pass
+    def facebook(self):
+        pass
+    def name_and_organisation(self):
+        pass
