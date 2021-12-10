@@ -49,8 +49,7 @@ class Form(object):
         return url
     
     def name_and_organisation(self):
-        google_suffix = ".com"
-        url = (f'{self.prefix}+"{self.first_name}+{self.last_name}"+{self.organisation_name}+{google_suffix}')
+        url = (f'{self.prefix}+"{self.first_name}+{self.last_name}"+{self.organisation_name}')
         return url
     
     def organisation_and_filetype(self):
