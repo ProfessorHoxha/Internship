@@ -1,3 +1,7 @@
+------------
+INSTRUCTIONS
+------------
+
 ##Input form:
 
 First name
@@ -19,3 +23,38 @@ Site:facebook.com
 List all results
 Allow results to be saved to database and retrieved
 Encypt/decrypt
+
+----------------------
+ARCHIVED CODE AND INFO
+----------------------
+
+#https://www.google.com/search?q=Mark+Johnson+trmg
+
+#Prefix + first_name + "+" + last_name "+" organisation_name
+
+#facebook suffix = Site%3Afacebook.com
+#Linkedin suffix = Site%3Alinkedin.com
+#Filetype:XLSX suffix = filetype%3Axlsx
+
+#https://www.google.com/search?q=Gramos+Hoxha+Site%3Alinkedin.com
+
+'''def save_data(self):
+        file = open("database.txt", "a")
+        file.write(self.data_organisation())
+        file.close()
+    
+    def retreive_data(self):
+         file = open("database.txt", "r")
+         retreived = file.readlines()
+         newlist = []
+         for line in retreived:
+             newlist.append(line.strip())
+         file.close()
+         return newlist'''
+
+'''c.execute("""CREATE TABLE form (
+    first text,
+    last text,
+    username text,
+    organisation text
+    )""")'''
